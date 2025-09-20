@@ -11,7 +11,7 @@ function App() {
   return (
     <>
       
-      <h1>Bye Awesome Bottle</h1>
+      <h1>Buy Awesome Bottle</h1>
     <Suspense fallback={<h3>Bottles are Loading...</h3>}>
     <Bottles bottlesPromise={bottlesPromise}></Bottles>
     </Suspense>
