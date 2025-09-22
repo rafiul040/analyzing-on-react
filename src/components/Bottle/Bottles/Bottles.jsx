@@ -48,6 +48,7 @@ const Bottles = ({bottlesPromise}) => {
         const remainingCart = cart.filter(bottle => bottle.id !== id)
         setCart(remainingCart)
         removeFromCart(id)
+        
 
     }
 
