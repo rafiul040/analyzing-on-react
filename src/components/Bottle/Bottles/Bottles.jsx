@@ -31,7 +31,7 @@ const Bottles = ({bottlesPromise}) => {
 
 
     const handleAddToCart = (bottle) => {
-        // console.log("Bottle Will Be Added To Cart", bottle)
+       
 
         const newCart = [...cart, bottle];
         setCart(newCart);
